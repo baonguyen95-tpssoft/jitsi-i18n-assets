@@ -1,6 +1,113 @@
 {
   "toolbar": {
-    "hangup": "通話を終了",
-    "raiseYourHand": "Giơ cái tay lên"
+    "endConference": "通話のセクション終了",
+    "leaveConference": "退室",
+    "showWhiteboard": "ホワイトボードを表示",
+    "hideWhiteboard": "ホワイトボードを非表示",
+    "linkToSalesforce": "Salesforce にリンク",
+    "reactions": "リアクション",
+    "closedCaptions": "字幕",
+    "fileSharing": "ファイル共有",
+    "polls": "投票",
+    "reactionLove": "ハートリアクションを送信",
+    "noiseSuppression": "追加のノイズ抑制（ベータ版）",
+    "enableNoiseSuppression": "追加のノイズ抑制を有効にする（ベータ版）",
+    "disableNoiseSuppression": "追加のノイズ抑制を無効にする（ベータ版）",
+    "videounmute": "カメラを開始",
+    "videomuteGUMPending": "カメラに接続しています",
+    "muteGUMPending": "マイクに接続しています",
+    "startScreenSharing": "画面共有の開始",
+    "help": "ヘルプ",
+    "accessibilityLabel": {
+      "carmode": "カーモード",
+      "breakoutRooms": "ブレイクアウトルーム",
+      "showWhiteboard": "ホワイトボードを表示",
+      "hideWhiteboard": "ホワイトボードを非表示",
+      "linkToSalesforce": "Salesforce にリンク",
+      "documentOpen": "共有ドキュメントを開く",
+      "reactions": "リアクション",
+      "giphy": "GIPHY メニューを切り替える",
+      "love": "ハート",
+      "closedCaptions": "字幕",
+      "stopSharedVideo": "動画を停止",
+      "endConference": "全員の会議を終了",
+      "leaveConference": "会議を退出",
+      "videounmute": "カメラを開始",
+      "unmute": "マイクのミュートを解除",
+      "videomuteGUMPending": "カメラに接続しています",
+      "muteGUMPending": "マイクに接続しています"
+    }
+  },
+  "polls": {
+    "answer": {
+      "edit": "編集",
+      "send": "送信"
+    },
+    "by": "作成者：{{ name }}",
+    "create": {
+      "save": "保存"
+    }
+  },
+  "chat": {
+    "everyone": "全員"
+  },
+  "carmode": {
+    "labels": {
+      "buttonLabel": "カーモード"
+    }
+  },
+  "breakoutRooms": {
+    "buttonLabel": "ブレイクアウトルーム"
+  },
+  "settings": {
+    "buttonLabel": "設定",
+    "audio": "オーディオ",
+    "video": "ビデオ",
+    "notifications": "通知",
+    "shortcuts": "ショートカット",
+    "maxStageParticipants": "メインステージに固定できる参加者の最大数",
+    "moderatorOptions": "モデレーターオプション",
+    "followMeRecorder": "レコーダーが私に追従する",
+    "chatWithPermissions": "チャットには権限が必要です",
+    "participantKnocking": "参加者がロビーに入りました"
+  },
+  "settingsView": {
+    "apply": "適用",
+    "help": "ヘルプ",
+    "privacy": "プライバシー",
+    "terms": "利用規約"
+  },
+  "virtualBackground": {
+    "apply": "適用"
+  },
+  "welcomepage": {
+    "settings": "設定"
+  },
+  "deviceSelection": {
+    "hid": {
+      "callControl": "通話コントロール",
+      "pairDevice": "デバイスをペアリング"
+    }
+  },
+  "notify": {
+    "moderator": "あなたはモデレーターになりました",
+    "nextToSpeak": "あなたは次に発言する番です",
+    "unmuteScreen": "画面共有を開始",
+    "viewParticipants": "参加者を表示"
+  },
+  "participantsPane": {
+    "actions": {
+      "desktopModeration": "画面共有を開始",
+      "stopEveryonesDesktop": "全員の画面共有を停止",
+      "lowerAllHands": "全員の挙手を下げる"
+    }
+  },
+  "lobby": {
+    "waitForModerator": "モデレーターがまだ参加していないため、会議は開始されていません。モデレーターになる場合はログインしてください。それ以外の場合は、お待ちください。"
+  },
+  "videothumbnail": {
+    "domuteDesktopOfOthers": "他の全員の画面共有を停止",
+    "mirrorVideo": "ビデオを左右反転",
+    "pinToStage": "ステージに固定"
   }
 }
