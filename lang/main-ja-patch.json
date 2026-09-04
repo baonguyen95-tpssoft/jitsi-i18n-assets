@@ -1,6 +1,5 @@
 {
   "toolbar": {
-    "raiseYourHand": "giơ tay",
     "endConference": "通話のセクション終了",
     "leaveConference": "退室",
     "showWhiteboard": "ホワイトボードを表示",
@@ -19,6 +18,8 @@
     "muteGUMPending": "マイクに接続しています",
     "startScreenSharing": "画面共有の開始",
     "help": "ヘルプ",
+    "unmute": "マイクのミュートを解除",
+    "Settings": "設定",
     "accessibilityLabel": {
       "carmode": "カーモード",
       "breakoutRooms": "ブレイクアウトルーム",
@@ -36,7 +37,8 @@
       "videounmute": "カメラを開始",
       "unmute": "マイクのミュートを解除",
       "videomuteGUMPending": "カメラに接続しています",
-      "muteGUMPending": "マイクに接続しています"
+      "muteGUMPending": "マイクに接続しています",
+      "help": "ヘルプ"
     }
   },
   "polls": {
@@ -70,19 +72,27 @@
     "moderatorOptions": "モデレーターオプション",
     "followMeRecorder": "レコーダーが私に追従する",
     "chatWithPermissions": "チャットには権限が必要です",
-    "participantKnocking": "参加者がロビーに入りました"
+    "participantKnocking": "参加者がロビーに入りました",
+    "title": "設定"
   },
   "settingsView": {
     "apply": "適用",
+    "header": "設定",
     "help": "ヘルプ",
     "privacy": "プライバシー",
+    "sdkVersion": "SDK バージョン",
     "terms": "利用規約"
   },
   "virtualBackground": {
     "apply": "適用"
   },
   "welcomepage": {
-    "settings": "設定"
+    "settings": "設定",
+    "terms": "利用規約",
+    "privacy": "プライバシー"
+  },
+  "termsView": {
+    "title": "利用規約"
   },
   "deviceSelection": {
     "hid": {
